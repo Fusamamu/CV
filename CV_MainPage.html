@@ -7,48 +7,131 @@
         <style>
             body {
                 background-color: rgb(255, 253, 221);
+                margin: 0;
+                padding: 0;
             }
-            
+
+            .topContainer {
+                background-color: rgb(255, 204, 36);
+                width: 100%;
+                height: 600px;
+                position: absolute;
+            }
+
             .topIntro {
                 background-color: rgb(255, 204, 36);
-                width: 500px;
-                height: 400px;
-                
-                margin-left: 200px;
-                margin-top: 100px;
+                width: 25%;
+                height: 250px;
 
+                font-family: Arial, sans-serif;
                 padding: 50px;
+
+                position: absolute;
+                top: 100px;
+                margin-left: 10%;
+                z-index: 100;
             }
 
             .topIntro h{
-                font-family: Arial, sans-serif;
-                font-size: 70px;
+                font-size: 40px;
                 font-weight: 100;
             }
 
             .topIntro div{
-                font-family: Arial, sans-serif;
                 font-size: 20px;
             }
 
 
             .mainBox {
+                font-family: Arial, sans-serif;
                 background-color: rgb(255, 255, 255);
                 width: 60%;
-                margin: auto;
-                margin-top: 40px;
                 height: 1500px;
+                margin: auto;
+                padding: 30px;
+                
+                position: relative;
+                top: 500px;
+                z-index: 5;
             }
+
+            .mainBox h{
+                font-weight: bold;
+                display: block;
+                position: static;
+            }
+
+            .mainBox p{
+                font-size: 20px;
+            }
+
+            ul{
+                font-family: Arial, sans-serif;
+                list-style-type: none;
+                background-color: blueviolet;
+                margin: 0;
+                padding: 0;
+
+                
+                width: 100%;
+                height: 50px;
+            }
+
+            li{
+                float: right;
+            }
+
+            li a{
+                display: block;
+                color: white;
+                width: 80px;
+                height: 100px;
+                padding: 10px;
+                text-align: center;
+            }
+            
+            hr.n1{
+                border: 2px solid rgb(177, 177, 177);
+                border-radius: 2px;
+            }
+
+
         </style>
     </head>
     <body>
+        <ul>
+            <li><a>CONTACT</a></li>
+            <li><a>PROJECTS</a></li>
+            <li><a>GITHUB</a></li>
+            <li><a>HOME</a>></li>
+        </ul>
+
+        <div class="topContainer">
+            
+        </div>
+
         <div class="topIntro">
             <h>SUKUM DUANGPATTRA</h>
-            <div>Agile learner. Make an inductory presentation for myself.
-            </div>
+            <h1>Software Developer</h1>
+            <div>Agile learner. Make an inductory presentation for myself.</div>
         </div>
+
         <div class="mainBox">
+            <h>WORK EXPERIENCE</h>
+            <p>asfdafksfjaklsjf;alksjfa;lsfjas;lfjasl;fjkla</p>
+            <hr class="n1">
+
+            <h>EDUCATION</h>
+            <p>Bacherlot degree in Architecture from Chulalongkorn University
+            Master Degree of Cilivil Engineering from The University of Tokyo
+            </p>
+            <h>KEY SKILL</h>
+            <p></p>
+            <h>LANGUAGE</h>
 
         </div>
+
+        
+        
     </body>
 </html>
