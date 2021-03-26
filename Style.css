@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(255, 250, 240);
+    margin: 0;
+    padding: 0;
+}
+
+.topContainer {
+    background-color: rgb(255, 250, 240);
+    width: 100%;
+    height: 250px;
+    position: absolute;
+}
+
+.topContainer img {
+    width: 400px;
+    image-rendering: pixelated;
+    float: right;
+    margin-right: 450px;
+}
+
+.topIntro {
+    background-color: rgb(255, 250, 240);
+    width: 25%;
+    height: 250px;
+
+    font-family: Arial, sans-serif;
+    padding: 0px;
+
+    position: absolute;
+    top: 100px;
+    margin-left: 25%;
+    z-index: 100;
+}
+
+.topIntro h{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.topIntro div{
+    font-size: 20px;
+}
+
+.mainBox {
+    font-family: Arial, sans-serif;
+    /*color: rgb(10, 34, 63);*/
+    color: rgb(76, 91, 111);
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 2500px;
+    margin: auto;
+    padding: 120px;
+    
+    position: relative;
+    top: 320px;
+    z-index: 5;
+}
+
+.mainBox h{
+    font-weight: bold;
+    display: block;
+    position: static;
+}
+
+.mainBox p{
+    font-size: 20px;
+}
+
+.insideMainBox {
+    background-color: rgb(255, 248, 233);
+    width: 27%;
+    height: 500px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin: 15px;
+    float: left;
+}
+
+ul{
+    font-family: Arial, sans-serif;
+    list-style-type: none;
+    background-color: rgb(255, 250, 240);
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+    height: 50px;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    display: block;
+    color: rgb(10, 34, 63);
+    width: 80px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+hr.n1{
+    border: 2px solid rgb(255, 250, 240);
+    border-radius: 2px;
+}
+
+.space {
+    margin-top: 50px;
+}
+
+.INLINE_BLOCK { display: inline-block; width: 250px; }
+

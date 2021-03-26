@@ -2,138 +2,15 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="Style.css">
         <title>Sukum Duangpattra CV</title>
-
-        <style>
-            body {
-                background-color: rgb(255, 250, 240);
-                margin: 0;
-                padding: 0;
-            }
-
-            .topContainer {
-                background-color: rgb(255, 250, 240);
-                width: 100%;
-                height: 600px;
-                position: absolute;
-            }
-
-            .topContainer img {
-                width: 400px;
-                image-rendering: pixelated;
-                float: right;
-                margin-right: 650px;
-               
-            }
-
-            .topIntro {
-                background-color: rgb(255, 250, 240);
-                width: 25%;
-                height: 250px;
-
-                font-family: Arial, sans-serif;
-                padding: 0px;
-
-                position: absolute;
-                top: 100px;
-                margin-left: 25%;
-                z-index: 100;
-            }
-
-            .topIntro h{
-                font-size: 40px;
-                font-weight: 100;
-            }
-
-            .topIntro div{
-                font-size: 20px;
-            }
-
-
-            .mainBox {
-                font-family: Arial, sans-serif;
-                color: rgb(10, 34, 63);
-                background-color: rgb(255, 255, 255);
-                width: 50%;
-                height: 1500px;
-                margin: auto;
-                padding: 120px;
-                
-                position: relative;
-                top: 500px;
-                z-index: 5;
-            }
-
-            .mainBox h{
-                font-weight: bold;
-                display: block;
-                position: static;
-               
-            }
-
-            .mainBox p{
-                font-size: 20px;
-            }
-
-            .insideMainBox {
-                background-color: rgb(255, 248, 233);
-                width: 27%;
-                height: 500px;
-                padding: 10px;
-                margin-left: 5px;
-                margin-right: 5px;
-                margin: 15px;
-                float: left;
-            }
-
-            ul{
-                font-family: Arial, sans-serif;
-                list-style-type: none;
-                background-color: rgb(255, 250, 240);
-                margin: auto;
-                padding: 20px;
-
-                
-                width: 80%;
-                height: 50px;
-
-                
-            }
-
-            li{
-                float: right;
-                
-            }
-
-            li a{
-                display: block;
-                color: rgb(10, 34, 63);
-                width: 80px;
-                height: 100px;
-                padding: 10px;
-                text-align: center;
-                text-decoration: none;
-            }
-            
-            hr.n1{
-                border: 2px solid rgb(255, 250, 240);
-                border-radius: 2px;
-                
-            }
-
-            .space {
-                margin-top: 50px;
-            }
-
-
-        </style>
     </head>
     <body>
         <ul>
-            <li><a>CONTACT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
             <li><a href="https://github.com/Fusamamu?tab=overview&from=2020-11-01&to=2020-11-30">GITHUB</a></li>
-            <li><a>PROJECTS</a></li>
-            <li><a>CV</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#aboutMe">ABOUT ME</a></li>
             <li><a>HOME</a>></li>
         </ul>
 
@@ -148,45 +25,87 @@
         </div>
 
         <div class="mainBox">
-            <h>WORK EXPERIENCE</h>
-            <p>2008 - 2011 &emsp;Instructor Assistant, Chulalongkorn University<br/>
-               2016 - 2020 &emsp;Co-pilot, Thai Airways International Public Co., It’d.</p>
-            
+            <h id="aboutMe">ABOUT ME</h>
+                <p>
+                    An Ex-Architect and soon to be Ex-Commercial Airline pilot, also a self-taught programmer who loves making
+                    games. From age 29, I have been exposed to programming, writing “Hello world” in JAVA. My aim at that time just
+                    was to quench my curiosity on how a game is made. Thinking to myself that if only I could write “Tetris” and 
+                    understand every line of codes, that should be enough and I would be better off doing something else.  To my
+                    Surprise, I have never stoped learning and coding since. Over years I have been exploring from Using Game Engine 
+                    vs Low-level Graphic Framework, Learning design patterns, clean code and Writing my own engine. For me 
+                    programming is more than a hobby to me, it is now my passion among many. While unfortunate, that my career in
+                    Aviation is about to come to an end, due to COVID19, it is a great time for me to put my obsession to good use, 
+                    Hoping that my knowledge and skills are beneficial to your company.
+                </p>
+
             <div class="space"></div>
             <hr class="n1">
 
+            <h>KEY SKILL</h>
+                <p>
+                    <span class="INLINE_BLOCK">Programming Languages</span> <span style="color: rgb(165, 59, 59)">C#, C/C++</span> , SWIFT<br>
+                    <span class="INLINE_BLOCK">Softwares</span> <span style="color: rgb(165, 59, 59)">Unity, Blender</span>, Autodesk 3ds Max, Adobe Photoshop, Adobe Illustrator, Krita, Graphic<br>
+                    <span class="INLINE_BLOCK">Frameworks</span> SpriteKit, SDL2, GLFW, Monogame<br><br>
+                
+                    Experienced in OpenGL, GLSL/HLSL Shader language.<br>
+                    Proficient in Drawing/Painting and Understanding of Fundamental Art Design.
+                </p>
+
+            <div class="space"></div>
+            <hr class="n1">
+            
             <h>EDUCATION</h>
-                <p>	2003 - 2008	&emsp;	Bachelor Degree of Architecture,  2nd Class Honours, Chulalongkorn University <br/>
-                    2012 - 2014	&emsp;	Master Degree, Urban Engineering, Graduate School of Engineering, The University of Tokyo<br/>
-                    2015 - 2016 &emsp;  Student Pilot, Commercial Pilot Licence with Instrument and Multi-Engine Ratings, Civil Aviation Training Center, Thailand <br/>
+                <p>	
+                    <span class="INLINE_BLOCK">2003 - 2008</span>Bachelor Degree of Architecture,  2nd Class Honours, Chulalongkorn University <br/>
+                    <span class="INLINE_BLOCK">2012 - 2014</span>Master Degree, Urban Engineering, Graduate School of Engineering, <br>
+                    <span class="INLINE_BLOCK">           </span>The University of Tokyo<br/>
+                    <span class="INLINE_BLOCK">2015 - 2016</span>Student Pilot, Commercial Pilot Licence with Instrument and Multi-Engine Ratings,<br>
+                    <span class="INLINE_BLOCK">           </span>Civil Aviation Training Center, Thailand <br/>
                 </p>
                 
             <div class="space"></div>
             <hr class="n1">
 
-            <h>KEY SKILL</h>
-                <p>Programming Languages
-                    C#, C++ , SWIFT
-                    Softwares
-                    Unity, Blender, Autodesk 3ds Max, Adobe Photoshop, Adobe Illustrator, Krita, Graphic
-                    Frameworks
-                    SpriteKit, SDL2, GLFW, Monogame
-                
-                    Experienced in OpenGL, GLSL/HLSL Shader language.
-                    Proficient in Drawing/Painting and Understanding of Fundamental Art Design.</p>
+            <h>WORK EXPERIENCE</h>
+                <p>
+                    <span class="INLINE_BLOCK">2008 - 2011</span>Instructor Assistant, Chulalongkorn University<br/>
+                    <span class="INLINE_BLOCK">2016 - 2021</span>Co-pilot, Thai Airways International Public Co., It’d.
+                </p>
+
             <div class="space"></div>
             <hr class="n1">
 
-            <h>LANGUAGE</h>
+            <h id="projects">PERSONAL PROJECTS</h>
 
             <div class="space"></div>
             <div class="insideMainBox"></div>
             <div class="insideMainBox"></div>
             <div class="insideMainBox"></div>
 
-        </div>
+            <div class="space"></div>
+            <hr class="n1">
 
-        
-        
+
+            <video width="320" height="240" controls>
+                <source src="CookieVideo.mp4" type="video/mp4">
+            </video>
+
+            <div class="space"></div>
+            <hr class="n1">
+
+            <br><br>
+            <h id="contact">CONTACT</h>
+                <p>
+                    4371/750 Ideo Mobi Sukhumvit Eastgate Sukhumvit Rd.<br>
+                    Bangnatai. Bangna District. 10260<br>
+                    Bangkok<br><br>
+
+                    Tel. 092-636-3458<br>
+                    Email: sukumduangpattra@gmail.com<br>
+                </p>
+
+            <div class="space"></div>
+            <hr class="n1">
+        </div>
     </body>
 </html>
