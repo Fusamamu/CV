@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Style.css">
+
+        <style>
+            .subImg {
+                width:  150px;
+                height: 150px;
+                margin: 15px;
+                border-radius: 10px;
+            }
+
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%;
+            }
+        </style>
+       
+        <title>Cookie Master Detail</title>
+    </head>
+    <body>
+        <ul>
+            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="https://github.com/Fusamamu?tab=overview&from=2020-11-01&to=2020-11-30">GITHUB</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#aboutMe">ABOUT ME</a></li>
+            <li><a href="CV_MainPage.html">HOME</a></li>
+        </ul>
+
+        <div class="mainBox" style="top: 50px;">
+
+            <div class="center">
+                MR PAC-MAN
+            </div>
+
+            <div class="projectBlock">
+
+                <img src="gif/pacman.gif" class="mainPageImg">
+                
+                <div style="margin-left: 100px; height: 260px;">
+                    <h>MR PAC-MAN</h>
+                    <p>
+                        An attempt to make a PAC-MAN clone. The project makes use of UnityEngine<br>
+                        2D TileMap combining with free-asset tile palette from itch.io, provided by<br>
+                        VladPenn.<a href ="https://vladpenn.itch.io/pacman">[https://vladpenn.itch.io/pacman]</a>
+                        
+                        <br><br>
+                        Source code: <a href="https://github.com/Fusamamu/CookieMasterV1">Link</a><br>
+                        More Details: <a href="mrPacManDetail.html">clink here</a>
+                    </p>
+                </div>
+
+                <div class="space"></div>
+                <hr class="n1">
+
+                <img src="gif/pacmanAStarDisplay.gif" class="mainPageImg">
+
+                <div style="margin-left: 100px; height: 260px;">
+                    <h>A STAR PATH FINDING IMPLEMETATION</h>
+                    <p>
+                        Experimenting with A* Path Finding algorithm. The Target destination is set to<br>
+                        the player[PAC-MAN] by each ghost. The script then calculates the shortest<br>
+                        path from ghosts to current player position when ghosts are in "Chasing<br>
+                        State". When the final path is found, which stored in a list of waypoint<br>
+                        , each Ghost then passes the list into its position Queue, used to update<br>
+                        current position for every Update circle.<br><br>
+
+                        The Path Finder script can also toggle on/off the color-coded visual trail of<br>
+                        the final path when found, which displayed in Unity Editor Mode. 
+                        
+                        
+                        
+                    </p>
+                </div>
+
+                <div class="space"></div>
+                <hr class="n1">
+
+                <img src="Images/pacmanScript1.png" class="mainPageImg">
+
+                <div style="margin-left: 100px; height: 260px;">
+                    <h>AI/PATH FINDER SCRIPT</h>
+                    <p>
+                        An attempt to make a PAC-MAN clone. The project makes use of UnityEngine<br>
+                       
+
+                       
+                    </p>
+                </div>
+
+                <div class="space"></div>
+                <hr class="n1">
+
+
+
+
+            </div>
+
+
+
+        </div>
+    </body>
+</html>
